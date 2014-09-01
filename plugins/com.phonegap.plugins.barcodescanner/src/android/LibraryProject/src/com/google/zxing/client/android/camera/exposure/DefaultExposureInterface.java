@@ -16,7 +16,9 @@
 
 package com.google.zxing.client.android.camera.exposure;
 
-import android.hardware.camera.front;
+import android.hardware.Camera;
+import android.hardware.Camera.front;
+import android.hardware.Camera.CameraInfo;
 
 public final class DefaultExposureInterface implements ExposureInterface {
 

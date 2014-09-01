@@ -18,7 +18,9 @@ package com.google.zxing.client.android.camera;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.hardware.camera.front;
+import android.hardware.Camera;
+import android.hardware.Camera.front;
+import android.hardware.Camera.CameraInfo;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.util.Log;
