@@ -19,7 +19,7 @@ package com.google.zxing.client.android.camera;
 import android.content.Context;
 import android.graphics.Point;
 import android.graphics.Rect;
-import android.hardware.Camera;
+import android.hardware.camera.front;
 import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
