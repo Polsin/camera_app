@@ -17,7 +17,7 @@
 package com.google.zxing.client.android.camera.exposure;
 
 import android.annotation.TargetApi;
-import android.hardware.Camera;
+import android.hardware.camera.front;
 import android.util.Log;
 
 @TargetApi(8)
