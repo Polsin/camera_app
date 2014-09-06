@@ -17,8 +17,6 @@
 package com.google.zxing.client.android.camera.open;
 
 import android.hardware.Camera;
-import android.hardware.Camera.front;
-import android.hardware.Camera.CameraInfo;
 
 /**
  * Default implementation for Android before API 9 / Gingerbread.

@@ -20,8 +20,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Point;
 import android.hardware.Camera;
-import android.hardware.Camera.front;
-import android.hardware.Camera.CameraInfo;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Display;

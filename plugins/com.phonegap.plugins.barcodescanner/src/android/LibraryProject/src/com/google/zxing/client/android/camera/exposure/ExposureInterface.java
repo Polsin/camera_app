@@ -17,8 +17,6 @@
 package com.google.zxing.client.android.camera.exposure;
 
 import android.hardware.Camera;
-import android.hardware.Camera.front;
-import android.hardware.Camera.CameraInfo;
 
 /**
  * Implementations control auto-exposure settings of the camera, if available.

@@ -20,8 +20,6 @@ import android.content.Context;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.hardware.Camera;
-import android.hardware.Camera.front;
-import android.hardware.Camera.CameraInfo;
 import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
