@@ -36,6 +36,10 @@ public final class GingerbreadOpenCameraInterface implements OpenCameraInterface
   public Camera open() {
     
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	//int cameraInfo.facing = Camera.CameraInfo.CAMERA_FACING_FRONT;
+>>>>>>> parent of 164ea02... more changes
 =======
 	//int cameraInfo.facing = Camera.CameraInfo.CAMERA_FACING_FRONT;
 >>>>>>> parent of 164ea02... more changes
@@ -59,7 +63,11 @@ public final class GingerbreadOpenCameraInterface implements OpenCameraInterface
     if (index < numCameras) {
       Log.i(TAG, "Opening camera #" + index);
 <<<<<<< HEAD
+<<<<<<< HEAD
       camera = Camera.open(index);
+=======
+      camera = Camera.open(1);
+>>>>>>> parent of 164ea02... more changes
 =======
       camera = Camera.open(1);
 >>>>>>> parent of 164ea02... more changes
