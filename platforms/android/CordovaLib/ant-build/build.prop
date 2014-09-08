@@ -1,5 +1,9 @@
 #Last build type
+<<<<<<< HEAD
 #Sat, 06 Sep 2014 19:27:04 +0200
+=======
+#Mon, 01 Sep 2014 11:04:33 +0200
+>>>>>>> parent of 164ea02... more changes
 
 build.last.target=debug
 

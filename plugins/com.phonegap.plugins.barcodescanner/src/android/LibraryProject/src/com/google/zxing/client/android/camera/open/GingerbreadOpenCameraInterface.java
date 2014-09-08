@@ -35,6 +35,10 @@ public final class GingerbreadOpenCameraInterface implements OpenCameraInterface
   @Override
   public Camera open() {
     
+<<<<<<< HEAD
+=======
+	//int cameraInfo.facing = Camera.CameraInfo.CAMERA_FACING_FRONT;
+>>>>>>> parent of 164ea02... more changes
     int numCameras = Camera.getNumberOfCameras();
     if (numCameras == 0) {
       Log.w(TAG, "No cameras!");
@@ -54,7 +58,11 @@ public final class GingerbreadOpenCameraInterface implements OpenCameraInterface
     Camera camera;
     if (index < numCameras) {
       Log.i(TAG, "Opening camera #" + index);
+<<<<<<< HEAD
       camera = Camera.open(index);
+=======
+      camera = Camera.open(1);
+>>>>>>> parent of 164ea02... more changes
     } else {
       Log.i(TAG, "No camera facing back; returning camera #0");
       camera = Camera.open(0);
