@@ -42,3 +42,4 @@ hooks/
 .idea/
 
 config.xml
+local.properties
