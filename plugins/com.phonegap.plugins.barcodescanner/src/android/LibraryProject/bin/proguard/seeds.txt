@@ -41,6 +41,7 @@ com.google.zxing.client.android.R$id: int back_button
 com.google.zxing.client.android.R$id: int barcode_image_view
 com.google.zxing.client.android.R$id: int bookmark_title
 com.google.zxing.client.android.R$id: int bookmark_url
+com.google.zxing.client.android.R$id: int button1
 com.google.zxing.client.android.R$id: int contents_supplement_text_view
 com.google.zxing.client.android.R$id: int contents_text_view
 com.google.zxing.client.android.R$id: int decode

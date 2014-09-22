@@ -15,29 +15,29 @@
  limitations under the License.
  -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="fill_parent"
-             android:layout_height="fill_parent">
+             android:layout_width="800px"
+             android:layout_height="800px">
 
   <SurfaceView android:id="@+id/preview_view"
-               android:layout_width="fill_parent"
-               android:layout_height="fill_parent"/>
+               android:layout_width="800px"
+               android:layout_height="800px"/>
 
   <com.google.zxing.client.android.ViewfinderView
       android:id="@+id/viewfinder_view"
-      android:layout_width="fill_parent"
-      android:layout_height="fill_parent"/>
+      android:layout_width="800px"
+      android:layout_height="800px"/>
 
   <LinearLayout android:id="@+id/result_view"
                 android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_width="600px"
+                android:layout_height="600px"
                 android:background="@color/result_view"
                 android:visibility="gone"
                 android:baselineAligned="false">
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="fill_parent"
+        android:layout_width="800px"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="top"
@@ -46,7 +46,7 @@
       <LinearLayout
           android:orientation="vertical"
           android:layout_width="wrap_content"
-          android:layout_height="fill_parent"
+          android:layout_height="800px"
           android:gravity="right">
 
         <ImageView android:id="@+id/barcode_image_view"
@@ -138,7 +138,7 @@
       </LinearLayout>
 
       <ScrollView
-          android:layout_width="fill_parent"
+          android:layout_width="800px"
           android:layout_height="wrap_content">
 
         <LinearLayout
@@ -172,14 +172,15 @@
 
     <LinearLayout android:id="@+id/result_button_view"
                   android:orientation="horizontal"
-                  android:layout_width="fill_parent"
+                  android:layout_width="800px"
                   android:layout_height="wrap_content"
                   android:gravity="center">
 
-      <Button android:layout_width="0dip"
-              android:layout_height="wrap_content"
+      <Button android:layout_width="110dip"
+              android:layout_height="110dip"
               android:layout_weight="1"
-              android:visibility="gone"/>
+              android:text="@string/button_google_shopper"
+              android:visibility="visible"/>
 
       <Button android:layout_width="0dip"
               android:layout_height="wrap_content"
@@ -215,5 +216,11 @@
             android:background="@color/transparent"
             android:text="@string/msg_default_status"
             android:textColor="@color/status_text"/>
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="CLOSE" />
 
 </FrameLayout>
