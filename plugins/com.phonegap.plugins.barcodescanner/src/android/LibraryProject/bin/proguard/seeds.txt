@@ -10,6 +10,7 @@ com.google.zxing.aztec.decoder.Decoder$Table: com.google.zxing.aztec.decoder.Dec
 com.google.zxing.aztec.decoder.Decoder$Table: com.google.zxing.aztec.decoder.Decoder$Table valueOf(java.lang.String)
 com.google.zxing.client.android.CaptureActivity
 com.google.zxing.client.android.CaptureActivity: CaptureActivity()
+com.google.zxing.client.android.CaptureActivity: void ButtonOnClick(android.view.View)
 com.google.zxing.client.android.CaptureActivityHandler$State: com.google.zxing.client.android.CaptureActivityHandler$State[] values()
 com.google.zxing.client.android.CaptureActivityHandler$State: com.google.zxing.client.android.CaptureActivityHandler$State valueOf(java.lang.String)
 com.google.zxing.client.android.HelpActivity
@@ -41,6 +42,7 @@ com.google.zxing.client.android.R$id: int back_button
 com.google.zxing.client.android.R$id: int barcode_image_view
 com.google.zxing.client.android.R$id: int bookmark_title
 com.google.zxing.client.android.R$id: int bookmark_url
+com.google.zxing.client.android.R$id: int btnCancel
 com.google.zxing.client.android.R$id: int button1
 com.google.zxing.client.android.R$id: int contents_supplement_text_view
 com.google.zxing.client.android.R$id: int contents_text_view

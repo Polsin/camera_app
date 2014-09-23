@@ -242,6 +242,7 @@ com.google.zxing.client.android.CaptureActivity -> com.google.zxing.client.andro
     void restartPreviewAfterDelay(long) -> a
     void resetStatusView() -> f
     void drawViewfinder() -> d
+    void ButtonOnClick(android.view.View) -> ButtonOnClick
 com.google.zxing.client.android.CaptureActivity$1 -> com.google.zxing.client.android.c:
     int[] $SwitchMap$com$google$zxing$client$android$IntentSource -> a
 com.google.zxing.client.android.CaptureActivityHandler -> com.google.zxing.client.android.d:

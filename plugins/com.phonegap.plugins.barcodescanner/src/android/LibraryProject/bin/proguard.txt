@@ -35,3 +35,6 @@
 # view AndroidManifest.xml #generated:131
 -keep class com.google.zxing.client.android.share.ShareActivity { <init>(...); }
 
+# onClick res/layout/capture.xml #generated:218
+-keepclassmembers class * { *** ButtonOnClick(...); }
+
